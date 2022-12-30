@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./CSS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="./CSS/js/bootstrap.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./CSS/Style.css"/>
+    <title>Dreamguys</title>
+  </head>
+  <body>
+    <div class="container-fluid wrapperOfAll h-md-40">
+      <header class="row d-flex flex-row align-items-center mx-5 px-3 px-sm-0 mx-sm-0">
+        <div class="logoImg col-5 col-lg-6 col-md-3">
+          <img src="./Image/logo.svg" alt="logo" />
+        </div>
+        <div class="menuDesktop col-lg-9">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="menuItem d-flex justify-content-evenly col-lg-8 col-md-6">
+              <a class="active" href="#">Home</a>
+              <a class="text-white" href="#">Student <ion-icon class="dropDown text-white"  name="chevron-down-outline"></ion-icon></a>
+              <a class="text-white" href="#">Instructor  <ion-icon class="dropDown text-white"  name="chevron-down-outline"></ion-icon></a>
+              <a class="text-white" href="#">Pages <ion-icon class="dropDown text-white"  name="chevron-down-outline"></ion-icon></a>
+              <a class="text-white" href="#">Blog <ion-icon class="dropDown text-white"  name="chevron-down-outline"></ion-icon></a>
+            </div>
+            <div class="signUpButton d-flex justify-content-end col-xl-3 col-md-3">
+              <button class="login">Login</button>
+              <button class="signUp">Signup</button>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="menu">
+          <ion-icon class="menuOutline" name="menu-outline"></ion-icon>
+          <div class="menuItemDevice">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a class="text-black" href="#">Instructor<ion-icon class="dropDown text-black" name="chevron-down-outline"></ion-icon></a></li>
+              <li><a class="text-black" href="#">Student <ion-icon class="dropDown text-black" name="chevron-down-outline"></ion-icon></a></li>
+              <li><a class="text-black" href="#">Pages <ion-icon class="dropDown text-black" name="chevron-down-outline"></ion-icon></a></li>
+              <li><a class="text-black" href="#">Blog <ion-icon class="dropDown text-black"  name="chevron-down-outline"></ion-icon></a></li>
+            </ul>
+            <div class="signUpButton">
+              <button class="loginMobile">Login</button>
+              <button class="signUpMobile">Signup</button>
+            </div>
+          </div>  
+        </div>
+      </header>
+      <div class="container-fluid outerContainer">
+        <div class="headerBanner row d-flex mx-5 mb-2 px-3">
+          <div class="headerChild col-xl-6 col-lg-9 col-md-12 col-sm-12 col-xs-12 col-12 mt-5 ">
+            <span class="learning">The Leader in Online Learning</span>
+            <h2 class="vectorImages text-white mb-4 col-lg-12 col-xs-12 col-12">
+              Engaging & Accessible
+              Online Courses For All
+            </h2>
+            <span class="text-white">Trusted by over 15K Users worldwide since 2022</span>
+            <div class="searchHead position-relative mt-4 col-lg-12 col-md-12 col-xs-12 col-12">
+              <input class="searchInput rounded-pill" type="text" placeholder="Search School, Online eductional centers, etc">
+              <img class="searchIcon" src="./Image/search.svg" alt="Search">
+              <div class="dropdown">
+                <select class="selectIt bg-danger rounded-pill" name="cars" id="cars">
+                  <option value="volvo" class="options">Category</option>
+                  <option value="saab" class="options">School</option>
+                  <option value="mercedes" class="options">Book</option>
+                  <option value="audi" class="options">Education</option>
+                </select> 
+              </div>
+            </div>
+            <div class="mt-5">
+              <div class="d-flex align-items-center">
+                <div class="ms-2 mb-3 col-lg-3 col-sm-4 col-xs-12 col-6">
+                  <span class="personRatings zIndex1"><img class="personImg" src="./Image/Person.png" alt="person"></span>
+                  <span class="personRatings zIndex2"><img class="personImg" src="./Image/Person.png" alt="person"></span>
+                  <span class="personRatings zIndex3"><img class="personImg" src="./Image/Person.png" alt="person"></span>
+                  <span class="personRatings zIndex4"><img class="personImg" src="./Image/Person.png" alt="person"></span>
+                </div>
+                <span class="text-white fw-bold">&nbsp;&nbsp;5.0</span>
+                <span class="stars col-lg-9 col-sm-8 col-xs-12  col-6">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              </div>
+              <h3 class="text-white col-12 font-weight-bold mt-3 d-flex align-items-center fw-bold">10+ <span class="fw-normal col-12">&nbsp;&nbspYears of experience tutors</span></h3>
+            </div>
+          </div>
+          <div class="position-relative col-xl-6 d-xl-block col-lg-4  col-12 d-sm-none d-md-none d-none d-lg-none">
+            <img class="bannerImg1 position-absolute" src="./Image/wepik-photo.svg" alt="banner1" />
+            <img class="bannerImg2 position-absolute" src="./Image/imgetwo.svg" alt="banner2" />
+          </div>
+        </div>
+        <div class="windowFirstpage d-flex align-items-center">
+          <div class="trustedHead d-flex ms-5 ps-3">
+            <div class="trusted col-12 col-md-4 col-sm-6 col-xs-12 d-flex flex-column ms-2">
+              <h2>Trusted By 500+ </h2>
+              <span>Leading Universities And Companies</span>
+            </div>
+            <div class="Industry col-10 col-lg-6 col-sm-6 col-md-6  col-xs-12 d-flex justify-content-between ms-xs-0 ms-md-0 sm-ms-0">
+              <img class="logoImg" src="./Image/foxhub.svg" alt="foxhunImg">
+              <img class="logoImg" src="./Image/ideaa.svg" alt="foxhunImg">
+              <img class="logoImg" src="./Image/aven.svg" alt="foxhunImg">
+              <img class="logoImg" src="./Image/foxhub.svg" alt="foxhunImg">
+              <img class="logoImg" src="./Image/velocity.svg" alt="foxhunImg">
+            </div>
+          </div>
+        </div>
+        <div class="course mx-5 px-3 my-5">
+          <span class="text-center">
+            <h2 class="courseTitle">Course Categories</h2>
+            <p>Pick Your Favourite Course</p>
+          </span>
+          <div id="carouselExampleDark" class="carousel carousel-dark  mt-5 " data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex justify-content-evenly">
+                <div class="courseIteam angularOuter me-3 d-flex flex-column align-items-center justify-content-evenly">
+                  <div class="angularImgOuter1 position-relative"><img class="angularImg" src="./Image/angular.svg" alt="angularLogo"></div>
+                  <div class="d-flex flex-column align-items-center">
+                    <span class="fw-bold fs-4 angular mb-3">Angular</span>
+                    <span class="text-secondary">50 Instructors</span>
+                  </div>
+                  <ion-icon class="forward" name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="courseIteam angularOuterActive reactjs me-3 d-flex flex-column align-items-center justify-content-evenly">
+                  <div class="reactOuter position-relative"><img class="angularImg" src="./Image/reactIcon.svg" alt="angularLogo"></div>
+                  <div class="d-flex flex-column align-items-center">
+                    <span class="fw-bold reactjs fs-4 mb-3">React JS</span>
+                    <span class="text-secondary">50 Instructors</span>
+                  </div>
+                  <ion-icon class="forward active" name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="courseIteam angularOuter me-3 d-flex flex-column align-items-center justify-content-evenly">
+                  <div class="angularImgOuter position-relative"><img class="angularImg" src="./Image/nodejs.svg" alt="angularLogo"></div>
+                  <div class="d-flex flex-column align-items-center">
+                    <span class="fw-bold fs-4 angular mb-3">Node JS</span>
+                    <span class="text-secondary">50 Instructors</span>
+                  </div>
+                  <ion-icon class="forward" name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="courseIteam angularOuter me-0 d-flex flex-column align-items-center justify-content-evenly">
+                  <div class="angularImgOuter position-relative"><img class="angularImg" src="./Image/docker.svg" alt="angularLogo"></div>
+                  <div class="d-flex flex-column align-items-center">
+                    <span class="fw-bold fs-4 angular mb-3">Docker</span>
+                    <span class="text-secondary">50 Instructors</span>
+                  </div>
+                  <ion-icon class="forward" name="chevron-forward-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="courses d-flex flex-wrap align-items-center">
+          <div class="onlineCources col-6  col-sm-3 text-center border-end">
+            <span class="text-danger fs-4">145</span>
+            <p class="text-white mt-2">Online Courses</p>
+          </div>
+          <div class="onlineCources col-6 col-sm-3 text-center border-end">
+            <span class="text-danger fs-4">23,493</span>
+            <p class="text-white mt-2">Expert Tutors</p>
+          </div>
+          <div class="onlineCources col-6 col-sm-3 text-center border-end">
+            <span class="text-danger fs-4">20+</span>
+            <p class="text-white mt-2">Cetified Courses</p>
+          </div>
+          <div class="onlineCources col-6 col-sm-3 text-center border-end">
+            <span class="text-danger fs-4">58,370</span>
+            <p class="text-white mt-2">Online students</p>
+          </div>
+
+        </div>
+        <div class="featuredCourses mainlyBlue">
+          <div class="p-5 featured">
+            <span class="text-center">
+              <h2 class="courseTitle">Featured Courses</h2>
+              <p>Pick Your Favourite Course</p>
+            </span>
+            <div class="subTopics d-flex flex-wrap align-items-center justify-content-center">
+              <a class="blueColor mb-4 position-relative borderBottom" href="#">UI/UX Design</a>
+              <a class="mx-3 mb-4 text-dark" href="#">Development</a>
+              <a class="mx-3 mb-4  text-dark" href="#">Marketing</a>
+              <a class="mx-3 mb-4 text-dark" href="#">Business</a>
+              <a class="mx-3 mb-4 text-dark" href="#">Technology</a>
+              <a class="mx-3 mb-4 text-dark" href="#">All Category</a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-evenly mt-5 ps-3">
+              <div class="designs me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic1.svg" alt="graphic1">
+                <span class="heartOuter position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+              <div class="designs designsHover me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic2.svg" alt="graphic1">
+                <span class="heartOuter position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+              <div class="designs me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic1.svg" alt="graphic1">
+                <span class="heartOuter position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+              <div class="designs me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic2.svg" alt="graphic1">
+                <span class="heartOuter position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+              <div class="designs me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic1.svg" alt="graphic1">
+                <span class="heartOuter1 position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+              <div class="designs me-3 mb-4">
+                <img class="graphicImg" src="./Image/graphic2.svg" alt="graphic1">
+                <span class="heartOuter position-absolute">
+                  <ion-icon class="heartIcon" name="heart-outline"></ion-icon>
+                </span>
+                <div class="px-3 mt-3 d-flex justify-content-between align-items-center">
+                  <span class="personCircle rounded-circle">
+                    <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                  </span>
+                  <span>
+                    <span class="stars col-9 col-sm-8 text-end">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="text-dark fs-4">&#9733;</span>
+                  </span>
+                </div>
+                <h5 class="p-3 mb-0">The Complete Web Developer PHP framework Course 2.0</h5>
+                <span class="px-3 d-flex justify-content-between align-items-center">
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="time-outline"></ion-icon>&nbsp; 8 hr 30 min</span>
+                  <span class="d-flex align-items-center"><ion-icon class="text-danger fs-3" name="book-outline"></ion-icon>&nbsp; 10+ Lesson</span>
+                </span>
+                <p class="d-flex justify-content-between py-3 border-top m-3">
+                  <span>Graphic</span>
+                  <span class="redColor">$300.00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="masterSkills d-flex flex-wrap justify-content-evenly mx-5 ps-3 my-5">
+          <div class="col-xl-4 col-lg-6 col-md-12 col-12 text-justify">
+            <div class="me-3">
+              <h2 class="blueColor col-8 mb-3">Master the skills 
+                to drive your career</h2>
+                <p class="fw-normal">
+                  Get certified, master modern tech skills, and level up your career — whether you’re starting 
+                  out or a seasoned pro. 95% .
+                </p>
+                <p>
+                  Get certified, master modern tech skills, and level up your career — whether you’re starting 
+                  out or a seasoned pro. 95% of eLearning learners report our hands-on content directly helped their careers.
+                </p>
+                <button class="learnMore mb-5">Learn More</button>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-12 col-12">
+            <img class="mb-3" src="./Image/staymotivated.svg" alt="iconStay">
+            <h5>Stay motivated with engaging instructors</h5>
+            <p class="fw-normal">eLearning learners report our hands-on content directly helped their careers.</p>
+            <img class="mb-3" src="./Image/getcertified.svg" alt="iconCertified">
+            <h5>Get certified with 100+ certification courses</h5>
+            <p class="fw-normal">eLearning learners report our hands-on content directly helped their careers.</p>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-12 col-12 text-justify poppins">
+            <img class="mb-3" src="./Image/keepup.svg" alt="iconKeepup">
+            <h5>Keep up with in the latest in cloud</h5>
+            <p class="fw-normal">eLearning learners report our hands-on content directly helped their careers.</p>
+            <img class="mb-3" src="./Image/buildskill.svg" alt="iconBuil">
+            <h5>Build skills your way, from labs to courses</h5>
+            <p class="fw-normal">eLearning learners report our hands-on content directly helped their careers.</p>
+          </div>
+        </div>
+        <div class="mentorParent">
+          <div class="mentorsList mx-5 ps-3 py-5 row">
+            <div class="mentors col-xl-5 col-lg-6 col-md-12 col-12 position-relative">
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Millar Daizy</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/images1.jpg" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/images1.jpg" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/Person.png" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+              <span class="mentorCircle rounded-circle">
+                <img class="rounded-circle w-100" src="./Image/images1.jpg" alt="person">
+                <span class="popUp">
+                  <span>Daziy Millar</span><br>
+                  <span>PHP Developer</span>
+                </span>
+              </span>
+            </div>
+            <div class=" col-xl-6 col-lg-6 col-md-12 col-12 d-flex flex-column align-items-start justify-content-center">
+              <h2 class="text-danger">Experienced Course Instructor</h2>
+              <p class="text-white text-justify fw-normal mt-3">Get certified, master modern tech skills, and level up your career — whether you’re starting out or a 
+                seasoned pro. 95% . Get certified, master modern tech skills, and level up your career — whether you’re 
+                starting out or a seasoned pro. 95% of eLearning learners report our hands-on content directly 
+                helped their careers.
+              </p>
+              <button class="learnMore mt-4">Start Learning</button>
+            </div>
+          </div>
+        </div>
+        <div class="joinMentor d-flex mx-5 px-3 my-5">
+          <div class="col-xl-4 col-lg-6 col-md-12 col-12 mt-3">
+            <h2 class="blueColor fw-normal">Want to share your knowledge? Join us a Mentor</h2>
+            <p class="fw-normal">High-definition video is video of higher resolution and quality than standard-definition. 
+              While there is no standardized meaning for high-definition, generally any video.While there 
+              is no standardized meaning for high-definition, generally any video.
+            </p>
+            <span class="d-flex align-items-center mb-4">
+              <img src="./Image/award.svg" alt="awardImg">
+              <span>&nbsp;&nbsp;Best Courses</span>
+            </span>
+            <span class="d-flex align-items-center">
+              <img src="./Image/award.svg" alt="awardImg">
+              <span>&nbsp;&nbsp;Top rated Instructors</span>
+            </span>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

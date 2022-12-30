@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Sofia&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainlyBlue{
+    background-color: #F6F7FB;
+}
+.blueColor{
+    color: #2d0160;
+}
+.container-fluid {
+    padding: 0 !important;
+}
+.wrapperOfAll{
+    background-color: #2d0160;
+    height: 96vh;
+}
+header{
+    height: 90px;
+}
+ion-icon.dropDown {
+    position: relative;
+    top: 3px;
+}
+a{
+    text-decoration: none;
+}
+a:hover, .active, .reactjs, .learning {
+    color: #FFD600;
+}
+button.signUp {
+    border-radius: 30px;
+    background-color: #FFD600;
+    width: 165px;
+    height: 50px;
+    border: none;
+}
+button.login {
+    background: none;
+    color: #FFD600;
+    border: none;
+    margin-right: 20px;
+}
+.container{
+    width:unset;
+}
+.vector-img{
+    position: absolute;
+}
+.bannerImg1 {
+    width: 53%;
+    left: 90px;
+    top: 38px;
+}
+.bannerImg2 {
+    width: 48%;
+    right: -40px;
+    top: 15px;
+}
+input.searchInput {
+    width: 100%;
+    padding: 21px 60px 22px 140px;
+    border: 1px solid #FFD600;
+}
+input:focus, button:focus{
+    outline: none;
+}
+.vectorImages::before {
+    content: " ";
+    background: url(../Image/selectosh2.svg) no-repeat;
+    width: 90px;
+    height: 97px;
+    position: absolute;
+    left: 25px;
+    margin-top: 20px;
+}
+img.searchIcon {
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    background-color: #FFD600;
+    border-radius: 28px;
+    padding: 14px;
+}
+.dropdown {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.selectIt{
+    padding: 12px;
+    border: none;
+}
+select:focus{
+    outline: none;
+}
+.options {
+    background-color: white;
+}
+.btn-secondary, .btn-secondary:hover{
+    padding: 12px;
+    background-color: #FFD600;
+    border: none;
+}
+.personRatings {
+    position: relative;
+    margin: -5px;
+    border-radius: 50%;
+    width: 40px;
+    border:2px solid #440093;
+    display: inline-block;
+}
+img.personImg {
+    width: 100%;
+    border-radius: 50%;
+}
+.zIndex1{
+    z-index: 5;
+}
+.zIndex2{
+    z-index: 4;
+}
+.zIndex3{
+    z-index: 3;
+}
+.zIndex4{
+    z-index: 2;
+}
+.stars{
+    color: #FFD600;
+    font-size: 25px;
+}
+.windowFirstpage{
+    height: 135px;
+    background-color: #F6F7FB;
+    position: relative;
+}
+.trusted{
+    color: #2D0160;
+    font-size: 32px;
+    font-weight: 700;
+}
+span.logoBg {
+    width: 87px;
+    height: 36px;
+}
+.logoImg {
+    margin: 10px;
+    width: 20%;
+}
+.courseTitle{
+    color:#392C7D;
+    font-size: 32px;
+}
+.angularOuter{
+    width: 293px;
+    height: 309px;
+    background-color: #F6F7FB;
+    border-radius: 15px;
+}
+.angularImgOuter::after {
+    content: " ";
+    background: rgba(251, 15, 0, 0.2);
+    width: 30px;
+    height: 49px;
+    border-radius: 0 22px 0 0;
+    position: absolute;
+    left: 68px;
+    bottom: 58px;
+    z-index: 1;
+}
+.angularImgOuter1::after{
+    content: " ";
+    background: rgba(251, 15, 0, 0.2);
+    width: 30px;
+    height: 49px;
+    border-radius: 0 22px 0 0;
+    position: absolute;
+    left: 68px;
+    bottom: 58px;
+    z-index: 0;
+}
+.angularImg{
+    position: relative;
+    z-index: 5;
+}
+.angularOuterActive{
+    width: 293px;
+    height: 309px;
+    background-color: #fff;
+    border: 1px solid #FFD600;
+    border-radius: 15px;
+}
+.angularImgOuter1::before {
+    content: " ";
+    background: rgba(251, 15, 0, 0.2);
+    width: 30px;
+    height: 49px;
+    border-radius: 0 22px 0 0;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 13px;
+    bottom: 23px;
+    z-index: 0;
+}
+.angularImgOuter::before {
+    content: " ";
+    background: rgba(251, 15, 0, 0.2);
+    width: 30px;
+    height: 49px;
+    transform: rotate(180deg);
+    border-radius: 0 22px 0 0;
+    position: absolute;
+    left: 13px;
+    bottom: 23px;
+    z-index: 1;
+}
+.reactOuter::before{
+    content: " ";
+    background: #FFD600;
+    width: 30px;
+    height: 49px;
+    border-radius: 0 22px 0 0;
+    position: absolute;
+    left: 68px;
+    bottom: 58px;
+    z-index: 1;
+}
+.reactOuter::after{
+    content: " ";
+    background: #FFD600;
+    width: 30px;
+    height: 49px;
+    transform: rotate(180deg);
+    border-radius: 0 22px 0 0;
+    position: absolute;
+    left: 13px;
+    bottom: 23px;
+    z-index: 1;
+}
+.angularLogo{
+    border-radius: 50%;
+    width: 83px;
+    height: 83px;
+    background-color: #FFD600;
+}
+.angular{
+    color:#392C7D;
+}
+.forward {
+    font-size: 30px;
+    background: #2D0160;
+    border-radius: 50%;
+    color: #fff;
+}
+.forward.active{
+    background: #FFD600;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #FFD600;
+}
+.carousel-indicators {
+    bottom: -40px;
+    margin-bottom: 0;
+}
+.carousel-item {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+}
+.courses{
+    background-color: #2D0160;
+    height: 120px;
+    margin-top: 75px;
+}
+.subTopics{
+    border-bottom: 1px solid #D9D9D9;
+    padding:10px 10px 10px 10px;
+    margin: 15px;
+}
+.borderBottom::before {
+    content: "";
+    width: 96px;
+    height: 3px;
+    background: #2D0160;
+    position: absolute;
+    z-index: 3;
+    top: 26px;
+}
+.designs{
+    width: 395px;
+    height: 570px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 0;
+}
+.graphicImg{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.personCircle {
+    display: inline-block;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.redColor{
+    color: #FB0F00;
+}
+.heartIcon {
+    font-size: 26px;
+    position: absolute;
+    color: white;
+    left: 5px;
+    top: 5px;
+}
+.heartOuter {
+    border-radius: 50%;
+    width: 30px;
+    position: relative;
+    left: 13px;
+    top: 13px;
+    outline: 1px solid white;
+    display: inline-block;
+    padding: 18px;
+}
+.heartOuter1{
+    border-radius: 50%;
+    width: 30px;
+    position: relative;
+    left: 13px;
+    top: 13px;
+    outline: 1px solid white;
+    background-color: #FB0F00;
+    display: inline-block;
+    padding: 18px;
+}
+button.learnMore {
+    width: 165px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ffd600;
+    border: none;
+}
+.mentorParent{
+    background-color: #2D0160;
+}
+.mentors::before {
+    content: " ";
+    background: url(../Image/selectosh2.svg) no-repeat;
+    width: 90px;
+    height: 97px;
+    position: absolute;
+    left: -25px;
+}
+.mentors::after {
+    content: " ";
+    background: url(../Image/selectosh2.svg) no-repeat;
+    width: 50px;
+    height: 90px;
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+.mentorCircle {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    margin: 13px;
+    border-radius: 50%;
+}
+.mentorCircle:hover{
+    cursor: pointer;
+    border: 3px solid #FFD600;
+}
+.mentorCircle:hover .popUp{
+    display: block;
+}
+.popUp {
+    background-color: #fff;
+    width: 195px;
+    padding: 20px 15px 20px 50px;
+    height: 80px;
+    position: absolute;
+    border-radius: 66px 30px 30px 0;
+    border: 2px solid #FFD600;
+    z-index: 2;
+    top: -45px;
+    left: 84px;
+    display: none;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+ion-icon.menuOutline.md.hydrated {
+    position: absolute;
+    color: #fff;
+    font-size: 45px;
+    right: 20px;
+    top: 16px;
+}
+.menu {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    z-index: 3;
+    display: none;
+}
+ul li {
+    list-style: none;
+    width: 110px;
+    padding: 10px;
+}
+ul{
+    padding-left: 0 !important;
+}
+ul li:hover{
+    background-color: #FFD600;
+}
+li {
+    padding: 6px;
+}
+.menuItemDevice {
+    background-color: #2d0160;
+    width: 153px;
+    height: 340px;
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+}
+button.signUpMobile {
+    border-radius: 30px;
+    background-color: #FFD600;
+    width: 110px;
+    height: 45px;
+    border: none;
+}
+button.loginMobile {
+    border-radius: 30px;
+    background-color: #FFD600;
+    width: 110px;
+    height: 45px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 1140px) {
+.mentors::after {
+    right: 30px;
+}
+}
+@media only screen and (max-width: 1326px) {
+.d-flex.flex-wrap.mt-5.ps-3 {
+    justify-content: center;
+}
+
+}
+@media only screen and (max-width: 934px) {
+.subTopics {
+    padding: 0;
+    margin: 0;
+}
+.wrapperOfAll {
+    height: 80vh;
+}
+.menuItem{
+    display: none;
+}
+.menuDesktop{
+    display: none;
+}
+.menu {
+    display: block;
+}
+.headerChild {
+    margin-top: 0 !important;
+}
+.menu:hover .menuItemDevice{
+    display: block;
+}
+}
+@media only screen and (max-width: 768px) {
+    .wrapperOfAll {
+        height: 83vh;
+    }
+    .designs {
+        width: 310px;
+    }
+    .trusted {
+        width: 40%;
+    }
+    .Industry {
+        width: 40%;
+    }
+    .designs {
+        width: 280px;
+        height: 510px;
+    }
+    .mentors::after {
+        content: " ";
+        display: none;
+    }
+    }
+@media only screen and (max-width: 590px) {
+.menuItem{
+    display: none !important;
+}
+.trustedHead {
+    display: flex;
+    margin: 0 !important;
+    flex-direction: column !important;
+}
+.subTopics {
+    border-bottom: none;
+}
+.mentors::after {
+    right: -13px;
+    display: none;
+}
+.vectorImages::before {
+    display: none;
+}
+.mx-5 {
+    margin: 0 !important;
+}
+.carousel-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.angularOuter {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.featured{
+    padding: 0 !important;
+}
+.mentors::before {
+   display: none;
+}
+.courses {
+    height: 165px;
+}
+.masterSkills {
+    padding: 23px !important;
+}
+}
+@media only screen and (max-width: 430px) {
+.windowFirstpage {
+    margin-bottom: 20px;
+}
+.trusted {
+    width: 82%;
+}
+.courses {
+    height: 195px;
+}
+.onlineCources {
+    margin-bottom: 10px;
+}
+.featuredCourses {
+    padding-top: 20px;
+}
+.masterSkills{
+    margin-top: 15px !important;
+    margin-left: 8px !important;
+}
+}
+@media only screen and (max-width: 375px) {
+.mentorCircle {
+    margin: 9px;
+}
+input.searchInput {
+    padding: 16px 54px 16px 124px;
+}
+img.searchIcon {
+    right: -3px;
+    top: 3px;
+    background: none;
+}
+.selectIt {
+    padding: 7px;
+}
+.headerChild {
+    margin-top: 0 !important;
+}
+.wrapperOfAll {
+    height: 87vh;
+}
+}
